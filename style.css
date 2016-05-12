@@ -1,0 +1,54 @@
+body {
+	background-color: #d3e3f4;
+	font-family: Arial, sans serif;
+}
+
+header {
+	height:100px;
+}
+
+img {
+	padding-right: 5px;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	padding: 3px;
+}
+
+form {
+	padding-bottom: 10px;
+}
+
+.formbody {
+	background-color: #ffffff;
+	text-align: center;
+	padding: 10px;
+}
+
+.thumbnail {
+	float: left;
+}
+
+.postInfo {
+	float: left;
+}
+
+.container {
+	padding: 10px;
+	display: block;
+	background-color: #ffffff;
+}
+
+.container:nth-child(odd){
+	background-color: #f0f0f0;
+}

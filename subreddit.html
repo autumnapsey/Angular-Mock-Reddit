@@ -1,0 +1,20 @@
+<!--p ng-repeat="post in posts">{{post.data.title}}</p-->
+
+<div class="navBar">
+	<ul>
+		<li><a href="#">hot</a></li>
+		<li><a href="#">new</a></li>
+		<li><a href="#">rising</a></li>
+		<li><a href="#">controversial</a></li>
+		<li><a href="#">top</a></li>
+		<li><a href="#">gilded</a></li>
+		<li><a href="#">wiki</a></li>
+	</ul>
+</div>
+
+<div class='container' ng-repeat="post in posts">
+	<img class='thumbnail' src={{post.data.thumbnail}} />
+	<a class='link' href={{post.data.url}}><h2 class='title'>{{post.data.title}}</h2></a>
+	<p class='author'>submitted by {{post.data.author}}</p>
+	<p class='comments'>{{post.data.num_comments}} comments</p>
+</div>	
